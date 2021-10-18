@@ -33,7 +33,7 @@
 
 ## Overview
 
-This is the anyenv that we use for creating all of our Docker containers, it includes all of the required files.
+This is a selection of Docker containers preinstalled with [anyenv](https://github.com/anyenv/anyenv).
 
 We try to offer as many operating system flavours as possible, but we only use currently supported versions of each one.
 

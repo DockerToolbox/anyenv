@@ -7,5 +7,7 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/DockerToolbox/anyenv/commits/master)
 
-- Initial commit [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
+- Update [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
+
+- Initial commit [`[56aa57e]`](https://github.com/DockerToolbox/anyenv/commit/56aa57e05bab64bc7ff98ee08cca1620a7918e4a)
 
