@@ -7,7 +7,9 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/DockerToolbox/anyenv/commits/master)
 
-- Stop git being removed as it is needed [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
+- Enable weekly build [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
+
+- Stop git being removed as it is needed [`[231390b]`](https://github.com/DockerToolbox/anyenv/commit/231390b0253c4d08ae0bb523f04644a05c1a0d06)
 
 - Update [`[1d68c3f]`](https://github.com/DockerToolbox/anyenv/commit/1d68c3f0038634e41bd75b1792d2a676156cd8e9)
 
