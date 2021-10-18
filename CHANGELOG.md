@@ -9,6 +9,8 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 - Update [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
 
+- Update [`[258d398]`](https://github.com/DockerToolbox/anyenv/commit/258d398588a3167bd2cda21b315dc465504ac9a7)
+
 - Ensure --login is run so the container can be stacked [`[6cb5132]`](https://github.com/DockerToolbox/anyenv/commit/6cb5132447c32436b300286686a6d8a49a095551)
 
 - Enable weekly build [`[f830189]`](https://github.com/DockerToolbox/anyenv/commit/f830189383c81146ec373961a0262728bb92cc7d)
