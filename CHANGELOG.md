@@ -7,7 +7,9 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/DockerToolbox/anyenv/commits/master)
 
-- Update [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
+- Add a path [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
+
+- Update [`[96f4419]`](https://github.com/DockerToolbox/anyenv/commit/96f4419fb46405be83f24315785890b51ccb9c6e)
 
 - Update [`[258d398]`](https://github.com/DockerToolbox/anyenv/commit/258d398588a3167bd2cda21b315dc465504ac9a7)
 
