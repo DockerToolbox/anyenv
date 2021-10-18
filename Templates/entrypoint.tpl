@@ -1,3 +1,3 @@
 WORKDIR /root
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/bin/bash", "--login"]
