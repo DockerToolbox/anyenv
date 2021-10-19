@@ -7,7 +7,9 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/DockerToolbox/anyenv/commits/master)
 
-- Experimenting [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
+- Set schedule to run 1 hourbefore the children [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
+
+- Experimenting [`[060fef0]`](https://github.com/DockerToolbox/anyenv/commit/060fef08fcde0866fd721aced69a3f7f698a56cd)
 
 - Experimenting [`[17678a1]`](https://github.com/DockerToolbox/anyenv/commit/17678a17b79748b9bc5b998f4d7cc4a507f9eaba)
 
