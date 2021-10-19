@@ -9,6 +9,8 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 - Experimenting [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
 
+- Experimenting [`[17678a1]`](https://github.com/DockerToolbox/anyenv/commit/17678a17b79748b9bc5b998f4d7cc4a507f9eaba)
+
 - Experimenting [`[94348fe]`](https://github.com/DockerToolbox/anyenv/commit/94348fe51f37e23fe6511fe9a0683980ae55164c)
 
 - Experimenting [`[9891208]`](https://github.com/DockerToolbox/anyenv/commit/9891208f7f2337f12f8aed6eae93a704b3a442d8)
