@@ -9,6 +9,8 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 - Experimenting [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
 
+- Experimenting [`[9891208]`](https://github.com/DockerToolbox/anyenv/commit/9891208f7f2337f12f8aed6eae93a704b3a442d8)
+
 - Path is set via the init command run from .bashrc [`[4325550]`](https://github.com/DockerToolbox/anyenv/commit/43255503f34e65c02a900a4bdc6b4f323c3c9e61)
 
 - Dont add path to bashrc as it is set in the container itself [`[d2355d0]`](https://github.com/DockerToolbox/anyenv/commit/d2355d035e52abc920509c4221976d32d22b1cc0)
