@@ -5,9 +5,13 @@ All notable changes to this project will be documented in this file.
 
 This changelog was automatically generated using [Caretaker](https://github.com/DevelopersToolbox/caretaker) by [Wolf Software](https://github.com/WolfSoftware)
 
-### [Unreleased](https://github.com/DockerToolbox/anyenv/commits/master)
+### [v0.1.0](https://github.com/DockerToolbox/anyenv/releases/v0.1.0)
+
+> Released on October, 19th 2021
 
 - Updates [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
+
+- Updates [`[ea80d31]`](https://github.com/DockerToolbox/anyenv/commit/ea80d31026445f92b702682e0166d150070abf6d)
 
 - Updates [`[8e83e5d]`](https://github.com/DockerToolbox/anyenv/commit/8e83e5d66e258fe01add705b465044e1c2f48ee2)
 
