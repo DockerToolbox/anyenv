@@ -7,7 +7,9 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/DockerToolbox/anyenv/commits/master)
 
-- /Users/wolf doesnt expand correctly so lets force it [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
+- Dont add path to bashrc as it is set in the container itself [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
+
+- /Users/wolf doesnt expand correctly so lets force it [`[62fa614]`](https://github.com/DockerToolbox/anyenv/commit/62fa61499bbb18ab8990bc030479e6c807d24168)
 
 - Add a path [`[a8db4da]`](https://github.com/DockerToolbox/anyenv/commit/a8db4da05d6aa279e92e08b36a92749bf44f7aed)
 
