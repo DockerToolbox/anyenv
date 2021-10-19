@@ -114,9 +114,8 @@ The helper script is called `manage-all.sh` and can be from any level of the dir
 ./manage-all.sh publish
 ```
 
-If you want to publish the containers you will need to update the [utils.sh](Scripts/utils.sh) script and change the following lines.
+If you want to publish the containers you will need to update the [utils.sh](Scripts/utils.sh#L5) script and change the following line.
 
 ```
 DOCKER_HUB_ORG='wolfsoftwareltd'
-CONTAINER_PREFIX='anyenv'
 ```
