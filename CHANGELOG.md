@@ -9,6 +9,8 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 - update [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
 
+- update [`[7353497]`](https://github.com/DockerToolbox/anyenv/commit/7353497d91d30c627986037382320d05ea308903)
+
 - update [`[028bb39]`](https://github.com/DockerToolbox/anyenv/commit/028bb3950aff40f2cb8cbbf19dcb39a7ec0baa3d)
 
 - add missing packages [`[95a2634]`](https://github.com/DockerToolbox/anyenv/commit/95a26349b6cea36281875a3d1f134d1d75bdb861)

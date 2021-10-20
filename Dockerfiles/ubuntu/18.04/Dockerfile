@@ -4,13 +4,7 @@ FROM ubuntu:18.04
 RUN apt-get update && \
 	apt-get -y --no-install-recommends install \
 		ca-certificates=20210119~18.04.2 \
-		build-essential=12.4ubuntu1 \
-		bzip2=1.0.6-8.1ubuntu0.2 \
-		curl=7.58.0-2ubuntu3.16 \
 		git=1:2.17.1-1ubuntu0.9 \
-		libssl-dev=1.1.1-1ubuntu2.1~18.04.13 \
-		unzip=6.0-21ubuntu1.1 \
-		zlib1g-dev=1:1.2.11.dfsg-0ubuntu2 \
 		&& \
 	git clone https://github.com/anyenv/anyenv ~/.anyenv && \
 	echo 'eval "$(anyenv init -)"' >> ~/.bashrc && \

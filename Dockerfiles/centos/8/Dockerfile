@@ -4,16 +4,7 @@ FROM centos:8
 RUN yum makecache && \
 	yum install -y \
 		ca-certificates-2020.2.41 \
-		bzip2-1.0.6 \
-		curl-7.61.1 \
-		gcc-8.4.1 \
 		git-2.27.0 \
-		gzip-1.9 \
-		make-4.2.1 \
-		openssl-devel-1.1.1g \
-		tar-1.30 \
-		unzip-6.0 \
-		zlib-devel-1.2.11 \
 		&& \
 	git clone https://github.com/anyenv/anyenv ~/.anyenv && \
 	echo 'eval "$(anyenv init -)"' >> ~/.bashrc && \

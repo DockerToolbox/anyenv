@@ -33,15 +33,16 @@
 
 ## Overview
 
-This is a selection of Docker containers pre-installed with [anyenv](https://github.com/anyenv/anyenv). This allows for the simple installation of a large number of **env type environments.
+This is a selection of docker containers pre-installed with [anyenv](https://github.com/anyenv/anyenv). This allows for the simple installation of a large number of **env type environments. 
 
-## Container Size
+These containers are also used as the base layer for many other containers that we publish.
 
-These anyenv containers come with everything needed to install any of the **envs and also any of the associated software for those envs, e.g. a compiler (gcc) as required by `rbenv install`. This makes the containers a little larger but makes them `ready to use`.
+* [goenv](https://github.com/DockerToolbox/goenv)
+* [pyenv](https://github.com/DockerToolbox/pyenv)
+* [rbenv](https://github.com/DockerToolbox/rbenv)
+* [tfenv](https://github.com/DockerToolbox/tfenv)
 
 For more information relating to what it included within the containers please refer to the individual Dockerfiles or the [packages](Packages/packages.cfg) configuration file.
-
-If you want a stripped down version of these containers we provide a [slim](https://github.com/DockerToolbox/anyenv-slim/) version which only has anyenv installed.
 
 ## Supported Operating Systems
 
