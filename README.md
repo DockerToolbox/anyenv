@@ -42,30 +42,34 @@ These containers are also used as the base layer for many other containers that 
 * [rbenv](https://github.com/DockerToolbox/rbenv)
 * [tfenv](https://github.com/DockerToolbox/tfenv)
 
+# Container Size
+
+The anyenv containers come with everything needed to install any of the **envs and also any of the associated versions of the software for those envs, e.g. a compiler (as required by rbenv). This makes the containers a little larger but makes them more useful and fully ready to use.
+
 ## Supported Operating Systems
 
-| Operating System             | Docker Hub Repo                                                                                   | Docker Hub Tags             |
-| ---------------------------- | ------------------------------------------------------------------------------------------------- | --------------------------- |
-| Alpine Linux 3.11            | [wolfsoftwareltd/anyenv-alpine](https://hub.docker.com/r/wolfsoftwareltd/anyenv-alpine)           | 3.11                        |
-| Alpine Linux 3.12            | [wolfsoftwareltd/anyenv-alpine](https://hub.docker.com/r/wolfsoftwareltd/anyenv-alpine)           | 3.12                        |
-| Alpine Linux 3.13            | [wolfsoftwareltd/anyenv-alpine](https://hub.docker.com/r/wolfsoftwareltd/anyenv-alpine)           | 3.13                        |
-| Alpine Linux 3.14            | [wolfsoftwareltd/anyenv-alpine](https://hub.docker.com/r/wolfsoftwareltd/anyenv-alpine)           | 3.14, latest                |
-| Amazon Linux 1               | [wolfsoftwareltd/anyenv-amazonlinux](https://hub.docker.com/r/wolfsoftwareltd/anyenv-amazonlinux) | 1                           |
-| Amazon Linux 2               | [wolfsoftwareltd/anyenv-amazonlinux](https://hub.docker.com/r/wolfsoftwareltd/anyenv-amazonlinux) | 2, latest                   |
-| Centos 7                     | [wolfsoftwareltd/anyenv-centos](https://hub.docker.com/r/wolfsoftwareltd/anyenv-centos)           | 7,                          |
-| Centos 8                     | [wolfsoftwareltd/anyenv-centos](https://hub.docker.com/r/wolfsoftwareltd/anyenv-centos)           | 8, latest                   |
-| Debian 9 (Stretch)           | [wolfsoftwareltd/anyenv-debian](https://hub.docker.com/r/wolfsoftwareltd/anyenv-debian)           | 9, stretch                  |
-| Debian 9 (Stretch Slim)      | [wolfsoftwareltd/anyenv-debian](https://hub.docker.com/r/wolfsoftwareltd/anyenv-debian)           | 9-slim, stretch-slim        |
-| Debian 10 (Buster)           | [wolfsoftwareltd/anyenv-debian](https://hub.docker.com/r/wolfsoftwareltd/anyenv-debian)           | 10, buster                  |
-| Debian 10 (Buster Slim)      | [wolfsoftwareltd/anyenv-debian](https://hub.docker.com/r/wolfsoftwareltd/anyenv-debian)           | 10-slim, buster-slim        |
-| Debian 11 (Bullseye)]        | [wolfsoftwareltd/anyenv-centos](https://hub.docker.com/r/wolfsoftwareltd/anyenv-centos)           | 11, bullseye, latest        |
-| Debian 11 (Bullseye Slim)    | [wolfsoftwareltd/anyenv-debian](https://hub.docker.com/r/wolfsoftwareltd/anyenv-debian)           | 11-slim, bullseye-slim      |
-| Debian 12 (Bookworm)         | [wolfsoftwareltd/anyenv-centos](https://hub.docker.com/r/wolfsoftwareltd/anyenv-centos)           | 12, bookworm                |
-| Debian 12 (Bookworm Slim)    | [wolfsoftwareltd/anyenv-debian](https://hub.docker.com/r/wolfsoftwareltd/anyenv-debian)           | 12-slim, bookworm-slim      |
-| Ubuntu 14.04 (Trusty Tahr)   | [wolfsoftwareltd/anyenv-ubuntu](https://hub.docker.com/r/wolfsoftwareltd/anyenv-ubuntu)           | 14.04, trusty               |
-| Ubuntu 16.04 (Xenial Xerus)  | [wolfsoftwareltd/anyenv-ubuntu](https://hub.docker.com/r/wolfsoftwareltd/anyenv-ubuntu)           | 16.04, xenial               |
-| Ubuntu 18.04 (Bionic Beaver) | [wolfsoftwareltd/anyenv-ubuntu](https://hub.docker.com/r/wolfsoftwareltd/anyenv-ubuntu)           | 18.04, bionic               |
-| Ubuntu 20.04 (Focal Fossa)   | [wolfsoftwareltd/anyenv-ubuntu](https://hub.docker.com/r/wolfsoftwareltd/anyenv-ubuntu)           | 20.04, focal, latest        |
+| Operating System Version     | Dockerfile                                           | Docker Hub Repo                                                                                   | Docker Hub Tags        |
+| ---------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------- |
+| Alpine 3.11                  | [Dockerfile](Dockerfiles/alpine/3.11/Dockerfile)     | [wolfsoftwareltd/anyenv-alpine](https://hub.docker.com/r/wolfsoftwareltd/anyenv-alpine)           | 3.11                   |
+| Alpine 3.12                  | [Dockerfile](Dockerfiles/alpine/3.12/Dockerfile)     | [wolfsoftwareltd/anyenv-alpine](https://hub.docker.com/r/wolfsoftwareltd/anyenv-alpine)           | 3.12                   |
+| Alpine 3.13                  | [Dockerfile](Dockerfiles/alpine/3.13/Dockerfile)     | [wolfsoftwareltd/anyenv-alpine](https://hub.docker.com/r/wolfsoftwareltd/anyenv-alpine)           | 3.13                   |
+| Alpine 3.14                  | [Dockerfile](Dockerfiles/alpine/3.14/Dockerfile)     | [wolfsoftwareltd/anyenv-alpine](https://hub.docker.com/r/wolfsoftwareltd/anyenv-alpine)           | 3.14, latest           |
+| Amazon Linux 1               | [Dockerfile](Dockerfiles/amazonlinux/1/Dockerfile)   | [wolfsoftwareltd/anyenv-amazonlinux](https://hub.docker.com/r/wolfsoftwareltd/anyenv-amazonlinux) | 1                      |
+| Amazon Linux 2               | [Dockerfile](Dockerfiles/amazonlinux/2/Dockerfile)   | [wolfsoftwareltd/anyenv-amazonlinux](https://hub.docker.com/r/wolfsoftwareltd/anyenv-amazonlinux) | 2, latest              |
+| Centos 7                     | [Dockerfile](Dockerfiles/centos/7/Dockerfile)        | [wolfsoftwareltd/anyenv-centos](https://hub.docker.com/r/wolfsoftwareltd/anyenv-centos)           | 7,                     |
+| Centos 8                     | [Dockerfile](Dockerfiles/centos/8/Dockerfile)        | [wolfsoftwareltd/anyenv-centos](https://hub.docker.com/r/wolfsoftwareltd/anyenv-centos)           | 8, latest              |
+| Debian 9 (Stretch)           | [Dockerfile](Dockerfiles/debian/9/Dockerfile)        | [wolfsoftwareltd/anyenv-debian](https://hub.docker.com/r/wolfsoftwareltd/anyenv-debian)           | 9, stretch             |
+| Debian 9 (Stretch Slim)      | [Dockerfile](Dockerfiles/debian/9-slim/Dockerfile)   | [wolfsoftwareltd/anyenv-debian](https://hub.docker.com/r/wolfsoftwareltd/anyenv-debian)           | 9-slim, stretch-slim   |
+| Debian 10 (Buster)           | [Dockerfile](Dockerfiles/debian/10/Dockerfile)       | [wolfsoftwareltd/anyenv-debian](https://hub.docker.com/r/wolfsoftwareltd/anyenv-debian)           | 10, buster             |
+| Debian 10 (Buster Slim)      | [Dockerfile](Dockerfiles/debian/10-slim/Dockerfile)  | [wolfsoftwareltd/anyenv-debian](https://hub.docker.com/r/wolfsoftwareltd/anyenv-debian)           | 10-slim, buster-slim   |
+| Debian 11 (Bullseye)         | [Dockerfile](Dockerfiles/debian/11/Dockerfile)       | [wolfsoftwareltd/anyenv-centos](https://hub.docker.com/r/wolfsoftwareltd/anyenv-centos)           | 11, bullseye, latest   |
+| Debian 11 (Bullseye Slim)    | [Dockerfile](Dockerfiles/debian/11-slim/Dockerfile)  | [wolfsoftwareltd/anyenv-debian](https://hub.docker.com/r/wolfsoftwareltd/anyenv-debian)           | 11-slim, bullseye-slim |
+| Debian 12 (Bookworm)         | [Dockerfile](Dockerfiles/debian/12/Dockerfile)       | [wolfsoftwareltd/anyenv-centos](https://hub.docker.com/r/wolfsoftwareltd/anyenv-centos)           | 12, bookworm           |
+| Debian 12 (Bookworm Slim)    | [Dockerfile](Dockerfiles/debian/12-slim/Dockerfile)  | [wolfsoftwareltd/anyenv-debian](https://hub.docker.com/r/wolfsoftwareltd/anyenv-debian)           | 12-slim, bookworm-slim |
+| Ubuntu 14.04 (Trusty Tahr)   | [Dockerfile](Dockerfiles/ubuntu/14.04/Dockerfile)    | [wolfsoftwareltd/anyenv-ubuntu](https://hub.docker.com/r/wolfsoftwareltd/anyenv-ubuntu)           | 14.04, trusty          |
+| Ubuntu 16.04 (Xenial Xerus)  | [Dockerfile](Dockerfiles/ubuntu/16.04/Dockerfile)    | [wolfsoftwareltd/anyenv-ubuntu](https://hub.docker.com/r/wolfsoftwareltd/anyenv-ubuntu)           | 16.04, xenial          |
+| Ubuntu 18.04 (Bionic Beaver) | [Dockerfile](Dockerfiles/ubuntu/18.04/Dockerfile)    | [wolfsoftwareltd/anyenv-ubuntu](https://hub.docker.com/r/wolfsoftwareltd/anyenv-ubuntu)           | 18.04, bionic          |
+| Ubuntu 20.04 (Focal Fossa)   | [Dockerfile](Dockerfiles/ubuntu/20.04/Dockerfile)    | [wolfsoftwareltd/anyenv-ubuntu](https://hub.docker.com/r/wolfsoftwareltd/anyenv-ubuntu)           | 20.04, focal, latest   |
 
 > Docker containers are automatically rebuilt and published weekly (Mondays 2am)
 
