@@ -8,11 +8,11 @@ RUN apt-get update && \
 		bzip2=1.0.8-2 \
 		curl=7.68.0-1ubuntu2.7 \
 		git=1:2.25.1-1ubuntu3.2 \
+		libssl-dev=1.1.1f-1ubuntu2.8 \
 		unzip=6.0-25ubuntu1 \
+		zlib1g-dev=1:1.2.11.dfsg-2ubuntu1.2 \
 		&& \
-	# All the shared commands go here
 	git clone https://github.com/anyenv/anyenv ~/.anyenv && \
-	#echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.bashrc && \
 	echo 'eval "$(anyenv init -)"' >> ~/.bashrc && \
 	export PATH="$HOME/.anyenv/bin:$PATH" && \
 	echo y | anyenv install --init && \

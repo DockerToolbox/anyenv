@@ -6,23 +6,23 @@ RUN apk update && \
 		ca-certificates=20191127-r2 \
 		bash=5.0.11-r1 \
 		bzip2=1.0.8-r1 \
+		coreutils=8.31-r0 \
 		curl=7.79.1-r0 \
 		git=2.24.4-r0 \
 		libc6-compat=1.1.24-r3 \
 		openssl=1.1.1l-r0 \
 		openssl-dev=1.1.1l-r0 \
+		readline-dev=8.0.1-r0 \
 		unzip=6.0-r7 \
 		zlib=1.2.11-r3 \
 		zlib-dev=1.2.11-r3 \
 		&& \
-       apk add --no-cache --virtual \
-               build-dependencies \
-               build-base \
+	apk add --no-cache --virtual \
+		build-dependencies \
+		build-base \
 		linux-headers \
-               && \
-	# All the shared commands go here
+		&& \
 	git clone https://github.com/anyenv/anyenv ~/.anyenv && \
-	#echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.bashrc && \
 	echo 'eval "$(anyenv init -)"' >> ~/.bashrc && \
 	export PATH="$HOME/.anyenv/bin:$PATH" && \
 	echo y | anyenv install --init && \

@@ -10,12 +10,12 @@ RUN yum makecache && \
 		git-2.27.0 \
 		gzip-1.9 \
 		make-4.2.1 \
+		openssl-devel-1.1.1g \
 		tar-1.30 \
 		unzip-6.0 \
+		zlib-devel-1.2.11 \
 		&& \
-	# All the shared commands go here
 	git clone https://github.com/anyenv/anyenv ~/.anyenv && \
-	#echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.bashrc && \
 	echo 'eval "$(anyenv init -)"' >> ~/.bashrc && \
 	export PATH="$HOME/.anyenv/bin:$PATH" && \
 	echo y | anyenv install --init && \
