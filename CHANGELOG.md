@@ -7,7 +7,9 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/DockerToolbox/anyenv/compare/v0.1.0...HEAD)
 
-- udpate [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
+- add missing packages [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
+
+- udpate [`[42a01fe]`](https://github.com/DockerToolbox/anyenv/commit/42a01fed362912060eaeb1c33948ab91bff3e3cb)
 
 - udpate [`[b88a19f]`](https://github.com/DockerToolbox/anyenv/commit/b88a19f302d34248d8d79dff78fabffc04b3fa07)
 
