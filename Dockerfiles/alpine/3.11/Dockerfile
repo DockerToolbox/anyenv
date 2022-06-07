@@ -5,6 +5,7 @@ RUN apk update && \
 	apk add --no-cache \
 		ca-certificates=20191127-r2 \
 		bash=5.0.11-r1 \
+		curl=7.79.1-r0 \
 		git=2.24.4-r0 \
 		&& \
 	git clone https://github.com/anyenv/anyenv ~/.anyenv && \

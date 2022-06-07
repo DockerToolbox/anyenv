@@ -159,11 +159,11 @@ function build_container()
 
     if [[ "${clean}" == "clean" ]]; then
         echo "${fgGreen}${bold}Clean Building: ${LOCAL_CONTAINER_NAME}${reset}"
-        docker build --no-cache --pull -t "${LOCAL_CONTAINER_NAME}" .
+        docker build --no-cache --label org.opencontainers.image.created="$(date --rfc-3339=seconds --utc)" --pull -t "${LOCAL_CONTAINER_NAME}" .
         echo "${fgGreen}${bold}Clean Build Complete: ${LOCAL_CONTAINER_NAME}${reset}"
     else
         echo "${fgGreen}${bold}Building: ${LOCAL_CONTAINER_NAME}${reset}"
-        docker build --pull -t "${LOCAL_CONTAINER_NAME}" .
+        docker build --label org.opencontainers.image.created="$(date --rfc-3339=seconds --utc)" --pull -t "${LOCAL_CONTAINER_NAME}" .
         echo "${fgGreen}${bold}Build Complete: ${LOCAL_CONTAINER_NAME}${reset}"
     fi
 }

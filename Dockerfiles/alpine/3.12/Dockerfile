@@ -3,9 +3,10 @@ FROM alpine:3.12
 # hadolint ignore=SC2016,DL3018,DL4006
 RUN apk update && \
 	apk add --no-cache \
-		ca-certificates=20191127-r4 \
+		ca-certificates=20211220-r0 \
 		bash=5.0.17-r0 \
-		git=2.26.3-r0 \
+		curl=7.79.1-r1 \
+		git=2.26.3-r1 \
 		&& \
 	git clone https://github.com/anyenv/anyenv ~/.anyenv && \
 	echo 'eval "$(anyenv init -)"' >> ~/.bashrc && \
