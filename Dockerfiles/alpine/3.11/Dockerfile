@@ -7,6 +7,7 @@ RUN apk update && \
 		bash=5.0.11-r1 \
 		curl=7.79.1-r0 \
 		git=2.24.4-r0 \
+		unzip=6.0-r7 \
 		&& \
 	git clone https://github.com/anyenv/anyenv ~/.anyenv && \
 	echo 'eval "$(anyenv init -)"' >> ~/.bashrc && \

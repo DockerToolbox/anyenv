@@ -7,7 +7,9 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/DockerToolbox/anyenv/compare/v0.1.0...HEAD)
 
-- Added missing package to alpine containers [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
+- Updated [`[head]`](https://github.com/DockerToolbox/anyenv/commit/)
+
+- Added missing package to alpine containers [`[2183908]`](https://github.com/DockerToolbox/anyenv/commit/218390891ac4c519ecf6b59c2698e785e604c311)
 
 - update [`[b3a710f]`](https://github.com/DockerToolbox/anyenv/commit/b3a710f90f7f6fc659a2ab2436ce5b2ce245a0ad)
 

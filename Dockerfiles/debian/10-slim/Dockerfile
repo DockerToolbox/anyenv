@@ -4,7 +4,9 @@ FROM debian:buster-slim
 RUN apt-get update && \
 	apt-get -y --no-install-recommends install \
 		ca-certificates=20200601~deb10u2 \
+		curl=7.64.0-4+deb10u2 \
 		git=1:2.20.1-2+deb10u3 \
+		unzip=6.0-23+deb10u2 \
 		&& \
 	git clone https://github.com/anyenv/anyenv ~/.anyenv && \
 	echo 'eval "$(anyenv init -)"' >> ~/.bashrc && \

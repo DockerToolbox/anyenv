@@ -4,7 +4,9 @@ FROM debian:bullseye
 RUN apt-get update && \
 	apt-get -y --no-install-recommends install \
 		ca-certificates=20210119 \
+		curl=7.74.0-1.3+deb11u1 \
 		git=1:2.30.2-1 \
+		unzip=6.0-26 \
 		&& \
 	git clone https://github.com/anyenv/anyenv ~/.anyenv && \
 	echo 'eval "$(anyenv init -)"' >> ~/.bashrc && \

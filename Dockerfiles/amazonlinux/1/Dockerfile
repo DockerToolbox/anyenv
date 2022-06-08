@@ -4,7 +4,9 @@ FROM amazonlinux:1
 RUN yum makecache && \
 	yum install -y \
 		ca-certificates-2018.2.22 \
+		curl-7.61.1 \
 		git-2.18.5 \
+		unzip-6.0 \
 		yum-plugin-remove-with-leaves-1.1.31 \
 		&& \
 	git clone https://github.com/anyenv/anyenv ~/.anyenv && \
